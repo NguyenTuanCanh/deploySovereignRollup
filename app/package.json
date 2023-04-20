@@ -1,0 +1,39 @@
+{
+  "name": "rollkit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@rainbow-me/rainbowkit": "^0.8.0",
+    "babel-plugin-macros": "^3.1.0",
+    "ethers": "5.6.9",
+    "ipfs-http-client": "^60.0.0",
+    "react": "^18.2.0",
+    "react-contenteditable": "^3.3.7",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.8.0",
+    "react-markdown": "^8.0.6",
+    "react-svg": "^16.1.7",
+    "react-toastify": "^9.1.2",
+    "wagmi": "^0.8.10",
+    "write-file-p": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}

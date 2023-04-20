@@ -1,0 +1,51 @@
+.nftInfo {
+  background-color:#fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.nftInfo > div {
+  text-align: start;
+}
+
+.nftInfo > svg {
+  border-radius: 20px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+.iconLoading {
+    font-size: "18px";
+    margin-right: 10px;
+    margin-left: auto;
+    position: relative;
+    top: 1px;
+    animation: app-logo-spin infinite 1s linear
+  }
+  
+  @keyframes app-logo-spin {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+}
+
+.nameStatus.unavailable {
+  color: #ff3333;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default !important;
+}
+
+.nameStatus {
+  margin-left: auto;
+  color: #39d279;
+};

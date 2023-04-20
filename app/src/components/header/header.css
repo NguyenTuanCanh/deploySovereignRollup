@@ -1,0 +1,50 @@
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right > div:nth-child(1) {
+  margin-right: 40px;
+  position: relative;
+  top: 4px;
+}
+
+.header__right > div:nth-child(2) {
+  margin-right: 20px;
+}
+
+.header__right > div {
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-active {
+  color: purple !important;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+};
+
+.connectButton > div button > div {
+  position: relative;
+  bottom: 2px;
+}
+
+.connectButton > div button:nth-child(1) > div {
+  position: relative;
+  bottom: 2px;
+}
+
+.connectButton > div button:nth-child(1) {
+  border-radius: 2px !important;
+  outline: none;
+}
+
+.connectButton > div button:nth-child(2) > div {
+  border-radius: 2px !important;
+  outline: none;
+}
